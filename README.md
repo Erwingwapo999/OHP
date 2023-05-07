@@ -17,3 +17,5 @@ OpenVPN ohpserver.exe -port 5555 -proxy 127.0.0.1:3128 -tunnel 127.0.0.1:1194
 Linux: SSH ./ohpserver -port 5555 -proxy 127.0.0.1:3128 -tunnel 127.0.0.1:22
 
 OpenVPN ./ohpserver -port 5555 -proxy 127.0.0.1:3128 -tunnel 127.0.0.1:1194
+
+nohup ./ohpserver -port 1000  -proxy 127.0.0.1:8000 -tunnel 127.0.0.1:143
